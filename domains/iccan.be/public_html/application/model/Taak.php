@@ -3,11 +3,24 @@
 class Taak extends Identifiable
 {
 
-    private $_volgnummer;
+
     private $_naam;
     private $_type;
+    private $__bestand;
+    private $_moeilijkheid;
     private $_omschrijving;
-    private $_belangrijkheid;
+    private $_doel;
+
+
+    public function setDoel($doel)
+    {
+        $this->_doel = $doel;
+    }
+
+    public function getDoel()
+    {
+        return $this->_doel;
+    }
     private $_tags;
 
 
@@ -36,12 +49,12 @@ class Taak extends Identifiable
         parent::__construct();
     }
 
-    public function getVolgnummer () {
-        return $this->_volgnummer;
+    public function getBestand () {
+        return $this->__bestand;
     }
 
-    public function setVolgnummer ($id) {
-        $this->_volgnummer = $id;
+    public function setBestand ($id) {
+        $this->__bestand = $id;
     }
 
     public function getNaam () {
@@ -68,21 +81,22 @@ class Taak extends Identifiable
         $this->_omschrijving = $points;
     }
 
-    public function getBelangrijkheid () {
-        return $this->_belangrijkheid;
+    public function getMoeilijkheid () {
+        return $this->_moeilijkheid;
     }
 
-    public function setBelangrijkheid ($answers) {
-        $this->_belangrijkheid = $answers;
+    public function setMoeilijkheid ($answers) {
+        $this->_moeilijkheid = $answers;
     }
 
     public function toArray()
     {
-        $fields['volgnummer'] = $this->_volgnummer;
+        $fields['bestand'] = $this->__bestand;
         $fields['naam'] = $this->_naam;
         $fields['type'] = $this->_type;
         $fields['omschrijving'] = $this->_omschrijving;
-        $fields['belangrijkheid'] = $this->_belangrijkheid;
+        $fields['moeilijkheid'] = $this->_moeilijkheid;
+        $fields['doel'] = $this->_doel;
         return $fields;
     }
     public function __toString()

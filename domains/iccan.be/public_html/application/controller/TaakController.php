@@ -7,13 +7,15 @@ class TaakController extends AdminController
         parent::__construct();
 
         $this->_categoryMapper = $this->_loader->getModelMapper('tag');
-        $this->_questionMapper = $this->_loader->getModelMapper('taak');
+        $this->_taakMapper = $this->_loader->getModelMapper('taak');
         $this->_tagvMapper = $this->_loader->getModelMapper('tagvmanager');
     }
 
     public function index()
     {
 
+        $taken  = $this->_taakMapper->getAll();
+        $this->_template->_tasks = $taken;
         $this->_template->setPagetitle('Beheer de taken');
         $this->_template->render('taak/index');
     }
@@ -40,12 +42,12 @@ class TaakController extends AdminController
 
             if($this->_validator->isValidForm())
             {
-                $this->_questionMapper->add($question);
+                $this->_taakMapper->add($question);
                 $tags = explode("/",$question->getTags());
                 foreach($tags as $tagnaam){
                     error_log($tagnaam);
                     $tag = $this->_categoryMapper->getByName($tagnaam);
-                    $vraag = $this->_questionMapper->getByvolgnummer($question->volgnummer);
+                    $vraag = $this->_taakMapper->getByvolgnummer($question->volgnummer);
                     $tagvmanager = new Tagvmanager();
                     $tagvmanager->setTagid($tag->id);
                     $tagvmanager->setVraagid($vraag->id);
@@ -87,7 +89,7 @@ class TaakController extends AdminController
 
 
             if ($this->_validator->isValidForm()) {
-                $this->_questionMapper->update($question);
+                $this->_taakMapper->update($question);
                 $this->_navigateToOverview('vraag ' . $question . ' opgeslagen');
             }
             else {
@@ -106,7 +108,7 @@ class TaakController extends AdminController
         $question = $this->_getQuestion($questionid);
         $this->_template->_question = $question;
 
-        $this->_questionMapper->delete(array('id' => $questionid));
+        $this->_taakMapper->delete(array('id' => $questionid));
         $this->_navigateToOverview('Vraag ' . $question . ' gewist.');
     }
 
@@ -118,7 +120,7 @@ class TaakController extends AdminController
     }
     private function _getQuestion($questionid)
     {
-        $question = $this->_questionMapper->get($questionid);
+        $question = $this->_taakMapper->get($questionid);
 
         if (!$question) {
             $statusMessage = new Message('Deze vraag bestaat niet', false);

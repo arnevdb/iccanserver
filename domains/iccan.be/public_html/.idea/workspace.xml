@@ -23,28 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Vraag.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/model/Vraag.php">
+      <file leaf-file-name="Taak.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/model/Taak.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="35" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1683">
+            <state line="98" column="38" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-25.461538" vertical-offset="1004" max-vertical-offset="1921">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="VraagMapper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/model/VraagMapper.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/view/taak/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="27" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/view/taak/form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
+            <state line="20" column="61" selection-start="939" selection-end="939" vertical-scroll-proportion="0.40047115" vertical-offset="0" max-vertical-offset="849">
               <folding />
             </state>
           </provider>
@@ -53,52 +44,25 @@
       <file leaf-file-name="TaakController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controller/TaakController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="69" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VraagController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/controller/VraagController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="60" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.080094226" vertical-offset="1377" max-vertical-offset="2635">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/view/vraag/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="57" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="646">
+            <state line="17" column="41" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="2363">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/view/vraag/form.php">
+        <entry file="file://$PROJECT_DIR$/application/view/taak/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1088">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1088">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Taak.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/model/Taak.php">
+      <file leaf-file-name="VraagController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controller/VraagController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="0" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1683">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaakMapper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/model/TaakMapper.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="5" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578">
+            <state line="16" column="47" selection-start="398" selection-end="489" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="2635">
               <folding />
             </state>
           </provider>
@@ -111,6 +75,9 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
   <component name="GitLogSettings">
     <option name="myStructureFilterPaths" />
     <option name="myDateState">
@@ -120,7 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controller/TagController.php" />
         <option value="$PROJECT_DIR$/application/view/home/loginform.php" />
         <option value="$PROJECT_DIR$/application/view/home/private.php" />
         <option value="$PROJECT_DIR$/application/view/tag/form.php" />
@@ -131,11 +97,12 @@
         <option value="$PROJECT_DIR$/application/model/Tagvmanager.php" />
         <option value="$PROJECT_DIR$/application/model/TagMapper.php" />
         <option value="$PROJECT_DIR$/application/model/VraagMapper.php" />
-        <option value="$PROJECT_DIR$/application/model/Taak.php" />
-        <option value="$PROJECT_DIR$/application/controller/TaakController.php" />
         <option value="$PROJECT_DIR$/application/model/TaakMapper.php" />
         <option value="$PROJECT_DIR$/application/view/vraag/index.php" />
         <option value="$PROJECT_DIR$/application/controller/VraagController.php" />
+        <option value="$PROJECT_DIR$/application/model/Taak.php" />
+        <option value="$PROJECT_DIR$/application/controller/TaakController.php" />
+        <option value="$PROJECT_DIR$/application/view/taak/index.php" />
       </list>
     </option>
   </component>
@@ -172,7 +139,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,16 +391,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig" serverName="iccan" serverId="794c863f-bbe5-465c-9ea0-c6ecca029749" autoUpload="true" uploadOnSaveAll="true">
     <servers>
@@ -456,6 +423,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Arne\Documents\GitHub\iccanserver\domains\iccan.be\public_html\application\model" />
       <recent name="C:\Users\Arne\Documents\domains\iccan.be\public_html\application\view" />
       <recent name="C:\Users\Arne\Documents\domains\iccan.be\public_html\application\controller" />
       <recent name="C:\Users\Arne\Documents\domains\iccan.be\public_html\application\model" />
@@ -524,20 +492,20 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852387" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23212379" sideWeight="0.6714761" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23479189" sideWeight="0.6714761" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -560,9 +528,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26307365" sideWeight="0.6710963" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -578,11 +546,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/view/home/private.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/view/tag/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="201" selection-start="1426" selection-end="1491" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="527" />
@@ -613,34 +576,6 @@
         <state line="41" column="0" selection-start="773" selection-end="773" vertical-scroll-proportion="0.819788" vertical-offset="1" max-vertical-offset="850" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/Taak.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="0" selection-start="1906" selection-end="1906" vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="1683">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/model/TaakMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="5" selection-start="79" selection-end="79" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/vraag/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="57" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/view/vraag/form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/model/Vraag.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="35" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="1683">
@@ -655,6 +590,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/vraag/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="57" selection-start="1119" selection-end="1119" vertical-scroll-proportion="0.43539" vertical-offset="0" max-vertical-offset="859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/view/vraag/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.6985816" vertical-offset="242" max-vertical-offset="1088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/model/TaakMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="5" selection-start="79" selection-end="79" vertical-scroll-proportion="0.079161815" vertical-offset="0" max-vertical-offset="859">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/VraagController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="47" selection-start="398" selection-end="489" vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="2635">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controller/TaakController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="41" selection-start="474" selection-end="474" vertical-scroll-proportion="-11.115385" vertical-offset="0" max-vertical-offset="2363">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/view/taak/form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1088">
@@ -662,16 +632,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/TaakController.php">
+    <entry file="file://$PROJECT_DIR$/application/model/Taak.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="69" selection-start="267" selection-end="267" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="2329">
+        <state line="98" column="38" selection-start="1969" selection-end="1969" vertical-scroll-proportion="-25.461538" vertical-offset="1004" max-vertical-offset="1921">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controller/VraagController.php">
+    <entry file="file://$PROJECT_DIR$/application/view/taak/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="60" selection-start="3564" selection-end="3564" vertical-scroll-proportion="0.080094226" vertical-offset="1377" max-vertical-offset="2635">
+        <state line="20" column="61" selection-start="939" selection-end="939" vertical-scroll-proportion="0.40047115" vertical-offset="0" max-vertical-offset="849">
           <folding />
         </state>
       </provider>

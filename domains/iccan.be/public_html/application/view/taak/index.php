@@ -1,26 +1,24 @@
 <div class="row">
     <div class="col-md-12">
-        <?php if ($this->_questions): ?>
+        <?php if ($this->_tasks): ?>
             <table class="table table-striped">
                 <thead>
                 <tr>
-                    <th>volgnummer</th>
                     <th>naam</th>
                     <th>type</th>
                     <th>tags</th>
-                    <th>belangrijkheid</th>
+                    <th>moeilijkheid</th>
                 </tr>
                 </thead>
                 <tbody>
-                <?php foreach ($this->_questions as $question): ?>
-                    <tr data-id="<?php echo $question->id; ?>">
-                        <td><?php echo $question->getVolgnummer(); ?></td>
-                        <td><?php echo $question->getnaam(); ?></td>
-                        <td><?php echo $question->getType(); ?></td>
-                        <td><?php echo $question->getTags(); ?></td>
-                        <td><?php echo $question->getBelangrijkheid() ? 'hoofdvraag' : 'subvraag'; ?></td>
-                        <td><a href="<?php echo baseUrl('/vraag/edit/'.$question->id);?>">bewerk</a></td>
-                        <td><a href="<?php echo baseUrl('/vraag/delete/'.$question->id);?>">wissen</a></td>
+                <?php foreach ($this->_tasks as $task): ?>
+                    <tr data-id="<?php echo $task->id; ?>">
+                        <td><?php echo $task->getNaam(); ?></td>
+                        <td><?php echo $task->getType(); ?></td>
+                        <td><?php echo $task->getTags(); ?></td>
+                        <td><?php echo $task->getMoeilijkheid(); ?></td>
+                        <td><a href="<?php echo baseUrl('taak/edit/'.$task->id);?>">bewerk</a></td>
+                        <td><a href="<?php echo baseUrl('taak/delete/'.$task->id);?>">wissen</a></td>
                     </tr>
                 <?php endforeach; ?>
                 </tbody>
